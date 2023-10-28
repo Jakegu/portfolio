@@ -1,0 +1,41 @@
+[
+    {
+        "name": "First project",
+        "description": "This is a description of my first project",
+        "year": 2023,
+        "img": "../img/picture-1.jpg",
+        "repository": "http://github.com/",
+        "technologies": [
+            "Tech1",
+            "Tech2",
+            "Tech3"
+        ]
+    },
+    {
+        "name": "Second project",
+        "description": "This is a description of my second project",
+        "year": 2023,
+        "img": "../img/picture-2.jpg",
+        "repository": "http://github.com/",
+        "technologies": [
+            "Tech1",
+            "Tech2",
+            "Tech3",
+            "Tech4"
+        ]
+    },
+    {
+        "name": "Third project",
+        "description": "This is a description of my third project",
+        "year": 2023,
+        "img": "../img/picture-3.jpg",
+        "repository": "http://github.com/",
+        "technologies": [
+            "Tech1",
+            "Tech2",
+            "Tech3",
+            "Tech4",
+            "Tech5"
+        ]
+    }
+]
