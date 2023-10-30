@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/sections.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/footer.css">
 
 
 
@@ -47,15 +48,16 @@
 
 
             <div class="nav-link center">
-                <a href="">About Me</a>
-                <a href="">Projects</a>
-                <a href="">Experience</a>
-                <a href="">Contact</a>
+                <a href="#section-1">About Me</a>
+                <a href="#section-2">Projects</a>
+                <a href="#section-3">Experience</a>
+                <a href="#section-4">Contact</a>
             </div>
         </nav>
 
     </header>
 
+    <div id="section-1" class="break"></div>
     <section class="about-section">
 
         <div class="img-container center">
@@ -65,7 +67,7 @@
         <div class="description-container center">
             <div class="center" style="flex-direction: column;">
                 <h1>My role as a dev</h1>
-                <h2>My name here</h2>
+                <h2>Jake Gulotta</h2>
             </div>
             <p>
                 Lorem ipsum dolor sit amet consectetur. Diam porttitor nisl lacinia id viverra dignissim
@@ -86,14 +88,14 @@
                 <h2>Skills</h2>
 
                 <dev class="skills center">
-                    <label for="">Skill</label>
-                    <label for="">Skill</label>
-                    <label for="">Skill</label>
-                    <label for="">Skill</label>
-                    <label for="">Skill</label>
-                    <label for="">Skill</label>
-                    <label for="">Skill</label>
-                    <label for="">Skill</label>
+                    <label for="">C++</label>
+                    <label for="">Java</label>
+                    <label for="">Javascript</label>
+                    <label for="">Node.js</label>
+                    <label for="">Python</label>
+                    <label for="">Django</label>
+                    <label for="">Html</label>
+                    <label for="">CSS</label>
                     <label for="">Skill</label>
                     <label for="">Skill</label>
                 </dev>
@@ -102,6 +104,7 @@
 
     </section>
 
+    <div id="section-2" class="break"></div>
     <section id="projects" class="projects-section center">
         <h2>Projects</h2>
 
@@ -110,6 +113,7 @@
         </div>
     </section>
 
+    <div id="section-3" class="break"></div>
     <section class="experience-section center">
 
         <h2>Experience/Education</h2>
@@ -119,7 +123,40 @@
         </div>
     </section>
 
+    <div id="section-4" class="break"></div>
+    <section class="contact-section center">
+
+        <h2>Contact Me</h2>
+        <p>Feel free to drop me a line below!</p>
+
+        <form id="emailForm">
+
+            <input type="text" id="name" placeholder="Name" required> <br>
+            <input type="email" id="email" placeholder="Email" required> <br>
+            <input type="text" id="subject" placeholder="Subject"> <br>
+            <textarea id="message" rows="4" placeholder="Messge" required></textarea> <br>
+            <button class="primary-button" type="submit">Send Email</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <a href="">
+            <h2>Jake Gulotta</h2>
+        </a>
+
+        <nav class="nav-footer center">
+            <a href="#section-1">About Me</a>
+            <a href="#section-2">Projects</a>
+            <a href="#section-3">Experience</a>
+            <a href="#section-4">Contact</a>
+        </nav>
+    </footer>
+
     <script src="./js/main.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="./js/email.js"></script>
+    <script src="./js/navigation.js"></script>
 </body>
 
 </html>

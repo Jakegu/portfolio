@@ -1,41 +1,39 @@
 [
     {
-        "name": "First project",
-        "description": "This is a description of my first project",
+        "name": "Real Estate Website",
+        "description": "A front end dusplay for a Real Estate website using HTML and CSS",
         "year": 2023,
         "img": "../img/picture-1.jpg",
-        "repository": "http://github.com/",
+        "repository": "https://github.com/Jakegu/realEstate-ch39",
         "technologies": [
-            "Tech1",
-            "Tech2",
-            "Tech3"
+            "HTML",
+            "CSS",
+            "VSCode"
         ]
     },
     {
-        "name": "Second project",
-        "description": "This is a description of my second project",
+        "name": "Store Front",
+        "description": "A store front for a online store using JS HTML and CSS",
         "year": 2023,
         "img": "../img/picture-2.jpg",
-        "repository": "http://github.com/",
+        "repository": "https://github.com/Jakegu/ONLINESTORE",
         "technologies": [
-            "Tech1",
-            "Tech2",
-            "Tech3",
-            "Tech4"
+            "Javascript",
+            "HTML",
+            "CSS/Bootstrap"
         ]
     },
     {
-        "name": "Third project",
-        "description": "This is a description of my third project",
+        "name": "Blog",
+        "description": "A fullstack implemetation of Django to create a functional Blog",
         "year": 2023,
         "img": "../img/picture-3.jpg",
-        "repository": "http://github.com/",
+        "repository": "https://github.com/Jakegu/blog",
         "technologies": [
-            "Tech1",
-            "Tech2",
-            "Tech3",
-            "Tech4",
-            "Tech5"
+            "Python",
+            "Django",
+            "HTML",
+            "CSS"
         ]
     }
 ]

@@ -1,35 +1,24 @@
 [
     {
-        "entity": "name of the school or company",
-        "title": "course name or Job position",
-        "description": "a short description of the course or job position",
-        "period": "Month YYYY - Month YYYY",
+        "entity": "SDGKU",
+        "title": "Full Stack Development Immersive",
+        "description": "Immersive Web Development program",
+        "period": "May 2023 - December 2023",
         "technology": [
-            "Technology",
-            "Or",
-            "Skill"
+            "Django",
+            "Node.js",
+            "Mongo.db"
         ]
     },
     {
-        "entity": "name of the school or company",
-        "title": "course name or Job position",
-        "description": "a short description of the course or job position",
-        "period": "Month YYYY - Month YYYY",
+        "entity": "Diablo Valley College",
+        "title": "Computer Science Degree",
+        "description": "Associate's Degree for Computer Science and Applied Mathematics",
+        "period": "September 2015 - June 2018",
         "technology": [
-            "Technology",
-            "Or",
-            "Skill"
-        ]
-    },
-    {
-        "entity": "name of the school or company",
-        "title": "course name or Job position",
-        "description": "a short description of the course or job position",
-        "period": "Month YYYY - Month YYYY",
-        "technology": [
-            "Technology",
-            "Or",
-            "Skill"
+            "C++",
+            "C",
+            "Assembly"
         ]
     }
 ]
